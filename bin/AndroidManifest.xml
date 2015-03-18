@@ -5,16 +5,16 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@android:style/Theme.Holo.Light" >
         <activity
-            android:name=".Login"
+            android:name=".login.Login"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,33 +23,33 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignUp"
+            android:name=".login.SignUp"
             android:screenOrientation="portrait" />
         
         <!-- 관리자 -->
         <activity
-            android:name=".AdminMain"
+            android:name=".admin.AdminMain"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AdminList1"
+            android:name=".admin.AdminList1"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AdminList2"
+            android:name=".admin.AdminList2"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AdminItemList"
+            android:name=".admin.AdminMeasureItemList"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AdminItemSettings"
+            android:name=".admin.AdminMeasureItemSettings"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AdminCreateUserData"
+            android:name=".admin.AdminCreateUserData"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AdminDetails1"
+            android:name=".admin.AdminDetails1"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AdminDetails2"
+            android:name=".admin.AdminDetails2"
             android:screenOrientation="portrait" />
     </application>
 

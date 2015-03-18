@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/admin_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px144"
+        android:background="#ff0066af" >
+
+        <TextView
+            android:id="@+id/admin_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/admin_title"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/sp75"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/admin_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admin_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/px30"
+        android:text="@string/admin_name"
+        android:textColor="#ff0066af"
+        android:textSize="@dimen/sp54"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/admin_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/px20"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:popupBackground="#cccccc"
+        android:prompt="@string/admin_hospital_selected" />
+
+    <LinearLayout
+        android:id="@+id/admin_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/admin_list_1"
+            android:layout_width="@dimen/px870"
+            android:layout_height="@dimen/px144"
+            android:text="@string/admin_list_1"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/sp54"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/admin_list_2"
+            android:layout_width="@dimen/px870"
+            android:layout_height="@dimen/px144"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/px50"
+            android:text="@string/admin_list_2"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/sp54"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/admin_item_list"
+            android:layout_width="@dimen/px870"
+            android:layout_height="@dimen/px144"
+            android:layout_below="@id/admin_list_2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/px50"
+            android:text="@string/admin_measure_item_settings"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/sp54"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

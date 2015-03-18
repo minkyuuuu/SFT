@@ -5,4 +5,26 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <!-- common -->
+    <string name="measurement_type">측정종류</string>
+    <string name="age">나이</string>
+    <string name="write">글쓰기</string>
+    <string name="delete">삭제</string>
+
+    <!-- login -->
+    <string name="login_title">시니어 체력측정 서비스</string>
+    <string name="hint_login_id">아이디</string>
+    <string name="hint_login_password">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="login_sign_up">회원가입</string>
+
+    <!-- admin -->
+    <string name="admin_title">시니어 체력측정 서비스</string>
+    <string name="admin_name">관리자 (운동사) : 홍길동</string>
+    <string name="admin_hospital_selected">병원 선택</string>
+    <string name="admin_list_1">시니어 체력측정 1</string>
+    <string name="admin_list_2">시니어 체력측정 2</string>
+    <string name="admin_measure_item_settings">항목 설정</string>
+    <string name="admin_item_settings_title">시니어 체력측정 항목 설정</string>
+
 </resources>
