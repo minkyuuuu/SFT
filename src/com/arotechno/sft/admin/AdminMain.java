@@ -20,8 +20,8 @@ public class AdminMain extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.admin_main);
 		
+		// 병원선택
 		Spinner spinner = (Spinner) findViewById(R.id.spinner);
-		
 		final String[] data = {"성남 고령친화종합체험관", "광명새움병원", "더본병원"};
 		ArrayAdapter<String> adpater = new ArrayAdapter<String>(getApplicationContext(), R.layout.spinner_item, data);
 		spinner.setAdapter(adpater);

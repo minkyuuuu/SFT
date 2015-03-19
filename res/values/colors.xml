@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="create_user_date_outline">#ff000000</color>
+    <color name="create_user_date_bg">#ff56a9e5</color>
+    <color name="create_user_date_value_bg">#ffbfe2fc</color>
+
+</resources>

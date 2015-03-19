@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px250"
+    android:background="@color/create_user_date_bg"
+    android:orientation="vertical" >
+
+    <!-- line 1 : 작성자 -->
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px2"
+        android:background="@color/create_user_date_outline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/px40"
+                android:text="작성자"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@color/create_user_date_value_bg" >
+
+            <TextView
+                android:id="@+id/admin_create_user_data_writer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="운동사"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+    </LinearLayout>
+
+    <!-- line 2 : 성명, 병원명 -->
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px2"
+        android:background="@color/create_user_date_outline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <!-- line 2-1 : 병원명 -->
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/px40"
+                android:text="성명"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/create_user_date_value_bg" >
+
+            <TextView
+                android:id="@+id/admin_create_user_data_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="홍길동"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48" />
+        </RelativeLayout>
+
+        <!-- line 2-2 : 병원명 -->
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/px40"
+                android:text="병원명"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/create_user_date_value_bg" >
+
+            <TextView
+                android:id="@+id/admin_create_user_data_hospital_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+    </LinearLayout>
+
+    <!-- line 3 : 성별, 나이 -->
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px2"
+        android:background="@color/create_user_date_outline" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <!-- line 3-1 : 성별 -->
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/px40"
+                android:text="성별"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/create_user_date_value_bg" >
+
+            <TextView
+                android:id="@+id/admin_create_user_data_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="남자"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48" />
+        </RelativeLayout>
+
+        <!-- line 3-2 : 나이 -->
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/px40"
+                android:text="나이"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/create_user_date_value_bg" >
+
+            <TextView
+                android:id="@+id/admin_create_user_data_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="60세"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp48" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="match_parent"
+            android:background="@color/create_user_date_outline" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px2"
+        android:background="@color/create_user_date_outline" />
+
+</LinearLayout>

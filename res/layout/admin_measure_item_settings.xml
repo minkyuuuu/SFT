@@ -1,23 +1,169 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <!-- 1. 타이틀 -->
 
     <RelativeLayout
-        android:id="@+id/admin_title"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px144"
         android:background="#ff0066af" >
 
         <TextView
-            android:id="@+id/admin_title_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="@string/admin_measure_item_settings"
+            android:text="@string/admin_measure_item_settings_title"
             android:textColor="#ffffffff"
             android:textSize="@dimen/sp75"
             android:textStyle="bold" />
     </RelativeLayout>
 
+    <!-- 2. 측정종류, 나이 -->
 
-</RelativeLayout>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px200"
+        layout="@layout/include_admin_measure_item_settings_measure_type" />
+
+    <!-- 3. subTitle -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px120"
+        android:layout_marginTop="@dimen/px10"
+        layout="@layout/include_admin_measure_item_settings_subtitle" />
+
+    <!-- contents 1 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_1" />
+
+    <!-- contents 2 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_2" />
+
+    <!-- contents 3 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_3" />
+
+    <!-- contents 4 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_4" />
+
+    <!-- contents 5 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_5" />
+
+    <!-- contents 6 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_6" />
+
+    <!-- contents 7 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_7" />
+
+    <!-- contents 8 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_8" />
+
+    <!-- contents 9 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_9" />
+
+    <!-- contents 10 -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/include_admin_measure_item_settings_content_10" />
+
+    <!-- below menu (목록, 작성완료) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px144"
+        android:background="#ff9d9d9d"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/admin_measure_item_settings_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/category"
+                android:textColor="#ff000000"
+                android:textSize="@dimen/sp54"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="@dimen/px100"
+            android:layout_gravity="center_vertical"
+            android:background="#ffffffff" />
+
+        <RelativeLayout
+            android:id="@+id/admin_measure_item_settings_write_done"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/write_done"
+                android:textColor="#ff000000"
+                android:textSize="@dimen/sp54"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

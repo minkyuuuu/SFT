@@ -4,12 +4,30 @@
     <string name="app_name">시니어 체력측정</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    
+    <!-- tag key -->
+    <string name="tag_key_category">1</string>
+    <string name="tag_key_item">2</string>
 
     <!-- common -->
     <string name="measurement_type">측정종류</string>
     <string name="age">나이</string>
+    <string name="age2">연령</string>
+    <string name="age3">세</string>
     <string name="write">글쓰기</string>
     <string name="delete">삭제</string>
+    <string name="category">목록</string>
+    <string name="write_done">작성완료</string>
+    <string name="gender">성별</string>
+    <string name="level">수준</string>
+    <string name="rating">등급</string>
+    <string name="man">남자</string>
+    <string name="woman">여자</string>
+    <string name="number">번호</string>
+    <string name="id">아이디</string>
+    <string name="name">성명</string>
+    <string name="write_do">작성하기</string>
+    <string name="create_user_data">시니어 체력측정하기</string>
 
     <!-- login -->
     <string name="login_title">시니어 체력측정 서비스</string>
@@ -25,6 +43,6 @@
     <string name="admin_list_1">시니어 체력측정 1</string>
     <string name="admin_list_2">시니어 체력측정 2</string>
     <string name="admin_measure_item_settings">항목 설정</string>
-    <string name="admin_item_settings_title">시니어 체력측정 항목 설정</string>
+    <string name="admin_measure_item_settings_title">시니어 체력측정 항목 설정</string>
 
 </resources>

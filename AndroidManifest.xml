@@ -40,7 +40,10 @@
             android:name=".admin.AdminMeasureItemList"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".admin.AdminMeasureItemSettings"
+            android:name=".admin.AdminMeasureItemSettingsWrite"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".admin.AdminMeasureItemDetails"
             android:screenOrientation="portrait" />
         <activity
             android:name=".admin.AdminCreateUserData"

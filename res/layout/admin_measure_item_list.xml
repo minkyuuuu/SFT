@@ -14,17 +14,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="@string/admin_item_settings_title"
+            android:text="@string/admin_measure_item_settings_title"
             android:textColor="#ffffffff"
             android:textSize="@dimen/sp75"
             android:textStyle="bold" />
     </RelativeLayout>
 
+    <!-- listview title -->
+    
     <LinearLayout
         android:id="@+id/admin_measure_item_list_top_title"
         android:layout_width="match_parent"
         android:layout_height="@dimen/px120"
-        android:background="#ff9d9d9d"
+        android:background="#ffbbbbbb"
         android:gravity="center_vertical"
         android:orientation="horizontal" >
 
@@ -36,7 +38,7 @@
         <View
             android:layout_width="@dimen/px3"
             android:layout_height="@dimen/px60"
-            android:background="#ff0066af" />
+            android:background="#ff5f6160" />
 
         <TextView
             android:id="@+id/admin_measurement_type"
@@ -45,14 +47,14 @@
             android:layout_weight="7"
             android:gravity="center_horizontal"
             android:text="@string/measurement_type"
-            android:textColor="#ff0066af"
+            android:textColor="#ff000000"
             android:textSize="@dimen/sp60"
             android:textStyle="bold" />
 
         <View
             android:layout_width="@dimen/px3"
             android:layout_height="@dimen/px60"
-            android:background="#ff0066af" />
+            android:background="#ff5f6160" />
 
         <TextView
             android:id="@+id/admin_age"
@@ -61,7 +63,7 @@
             android:layout_weight="7"
             android:gravity="center_horizontal"
             android:text="@string/age"
-            android:textColor="#ff0066af"
+            android:textColor="#ff000000"
             android:textSize="@dimen/sp60"
             android:textStyle="bold" />
     </LinearLayout>
@@ -70,7 +72,8 @@
         android:id="@+id/listview"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1" 
+        />
 
     <LinearLayout
         android:layout_width="match_parent"

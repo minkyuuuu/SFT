@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/admin_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px144"
+        android:background="#ff0066af" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/create_user_data"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/sp75"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!-- writer and user info -->
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px250"
+        layout="@layout/include_admin_create_user_data_writer_and_user_info" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- below menu (목록, 작성완료) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px144"
+        android:layout_gravity="bottom"
+        android:background="#ff9d9d9d"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/admin_measure_item_settings_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/category"
+                android:textColor="#ff000000"
+                android:textSize="@dimen/sp54"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/px2"
+            android:layout_height="@dimen/px100"
+            android:layout_gravity="center_vertical"
+            android:background="#ffffffff" />
+
+        <RelativeLayout
+            android:id="@+id/admin_measure_item_settings_write_done"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/write_done"
+                android:textColor="#ff000000"
+                android:textSize="@dimen/sp54"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

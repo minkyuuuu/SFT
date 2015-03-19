@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px160"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="@dimen/px1"
+        android:layout_height="@dimen/px10" />
+
+    <!-- 체력측정 종류 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/px40"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/admin_details_1_measure_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="배근력"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/sp54"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- contents -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/px40"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <!-- 등급 : A -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/admin_details_1_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="등급 : "
+                android:textColor="#ff0066af"
+                android:textSize="@dimen/sp51" />
+
+            <TextView
+                android:id="@+id/admin_details_1_rating_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="B"
+                android:textColor="#ff0066af"
+                android:textSize="@dimen/sp51" />
+        </LinearLayout>
+
+        <!-- 스코어 : 50.00 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/admin_details_1_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="스코어 : "
+                android:textColor="#ff0066af"
+                android:textSize="@dimen/sp51" />
+
+            <TextView
+                android:id="@+id/admin_details_1_score_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="50.0"
+                android:textColor="#ff0066af"
+                android:textSize="@dimen/sp51" />
+        </LinearLayout>
+
+        <!-- 신체나이 : -->
+        <!--
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/admin_details_1_body_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="신체나이 : "
+                android:textColor="#ff0066af"
+                android:textSize="@dimen/sp51" />
+            
+            <TextView
+                android:id="@+id/admin_details_1_body_age_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="63세"
+                android:textColor="#ff0066af"
+                android:textSize="@dimen/sp51" />
+        </LinearLayout>        -->
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/px1"
+        android:layout_height="@dimen/px10" />
+
+</LinearLayout>
