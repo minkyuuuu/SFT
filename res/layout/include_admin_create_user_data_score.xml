@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <!-- line 1-1 : 배근력 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="Kg"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 1-2 : 약력 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="Kg"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 1-3 : 각근력 (의자에 앉았다 일어서기)-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="회"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 1-4 : 상완근력 (아령들기) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="회"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 2-1 : 2분걷기 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="회"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 3-1 : 좌전굴 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="Cm"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 3-2 : 의자에 앉아 앞으로 굽히기 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_32"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="Cm"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 3-3 : 견관절 유연성 검사 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="Cm"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 4-1 : 타임드 업 앤고 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_41"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="초"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 4-2 : 누웠다 일어서기 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_42"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="초"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 5-1 : 전신반응(빛) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_51"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="초"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 5-2 : 전신반응(소리) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_52"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="초"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 6-1 : 눈감고 외발서기 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_61"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="초"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+    <!-- line 6-2 : 눈뜨고 외발서기 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <EditText
+                android:id="@+id/admin_create_user_data_62"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px16"
+                android:layout_marginTop="@dimen/px12"
+                android:layout_marginBottom="@dimen/px12"
+                android:layout_weight="7"
+                android:background="@drawable/admin_edittext_background"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#ff03a32d"
+                android:textSize="@dimen/sp45" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="3"
+                android:text="초"
+                android:textColor="#ff343434"
+                android:textSize="@dimen/sp39" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px2"
+            android:background="@color/create_user_date_contents_outline" />
+    </LinearLayout>
+
+</LinearLayout>

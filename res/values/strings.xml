@@ -4,7 +4,7 @@
     <string name="app_name">시니어 체력측정</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    
+
     <!-- tag key -->
     <string name="tag_key_category">1</string>
     <string name="tag_key_item">2</string>
@@ -28,6 +28,10 @@
     <string name="name">성명</string>
     <string name="write_do">작성하기</string>
     <string name="create_user_data">시니어 체력측정하기</string>
+    
+    <string name="big_category">대분류</string>
+    <string name="small_category">소분류</string>
+    <string name="score_or_level">수준</string>
 
     <!-- login -->
     <string name="login_title">시니어 체력측정 서비스</string>

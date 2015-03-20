@@ -4,5 +4,7 @@
     <color name="create_user_date_outline">#ff000000</color>
     <color name="create_user_date_bg">#ff56a9e5</color>
     <color name="create_user_date_value_bg">#ffbfe2fc</color>
+    
+    <color name="create_user_date_contents_outline">#ff343434</color>
 
 </resources>
